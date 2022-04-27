@@ -1,5 +1,5 @@
-﻿#ifndef matrixCalc_H
-#define matrixCalc_H
+﻿#ifndef arrayOps_H
+#define arrayOps_H
 
 #include <stdint.h>
 
