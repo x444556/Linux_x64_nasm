@@ -6,3 +6,4 @@ Features:
   - compare, fill or copy arrays
   - determine the parity of 64-bit data
   - uint64 to string
+  - Check if a number is a prime number
