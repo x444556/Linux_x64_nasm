@@ -13,7 +13,7 @@ section .text
 hasPopCnt:
 	mov rax, 1
 	cpuid
-	and rcx, 23
+	and rcx, 0b100000000000000000000000
 	jz .npc
 	mov rax, 1
 	ret
@@ -24,7 +24,7 @@ hasPopCnt:
 hasHwAES:
 	mov rax, 1
 	cpuid
-	and rcx, 25
+	and rcx, 0b10000000000000000000000000
 	jz .naes
 	mov rax, 1
 	ret
